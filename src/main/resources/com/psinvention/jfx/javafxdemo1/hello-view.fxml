@@ -10,7 +10,7 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <Button fx:id="ammoButton" mnemonicParsing="false" onAction="#onAmmoButtonClick" text="Ammooo" />
-    <Button onAction="#onHelloButtonClick" text="Hello!" />
+    <Button fx:id="helloButton" onAction="#onHelloButtonClick" text="Hello!" />
 
     <Label fx:id="welcomeText" />
 </VBox>
